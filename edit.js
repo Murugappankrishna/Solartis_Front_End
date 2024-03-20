@@ -16,5 +16,5 @@ function editProduct() {
   localStorage.setItem("products", JSON.stringify(products));
 
   alert("Product edited successfully.Redirecting To Products Page");
-   location.href="products.js"
+   location.href="products.html"
 }
