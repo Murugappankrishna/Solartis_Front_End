@@ -18,4 +18,5 @@ function deleteProduct() {
   localStorage.setItem("products", JSON.stringify(shopItemsData));
 
   alert("Product deleted successfully.Redirecting To Products Page");
+  location.href="products.js"
 }
