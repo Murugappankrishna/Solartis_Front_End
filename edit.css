@@ -81,3 +81,8 @@ option {
   font-size: 10px;
   border-bottom: 1px solid #ccc;
 }
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0; /* Optional */
+}
